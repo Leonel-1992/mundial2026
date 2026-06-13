@@ -202,8 +202,8 @@
             },
             {
                 "id": 6,
-                "period": "first_half",
-                "minutes": 31,
+                "period": "second_half",
+                "minutes": 78,
                 "extraMinutes": 0,
                 "venueName": "Metlife Stadium",
                 "venueCity": "East Rutherford, New Jersey",
@@ -219,9 +219,14 @@
                 "awaySquadName": "Morocco",
                 "homeSquadAbbr": "BRA",
                 "awaySquadAbbr": "MAR",
-                "homeScore": 0,
+                "homeScore": 1,
                 "homePenaltyScore": 0,
-                "homeGoalScorersAssists": null,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 173,
+                        "assistId": 1361
+                    }
+                ],
                 "awayScore": 1,
                 "awayPenaltyScore": 0,
                 "awayGoalScorersAssists": [
