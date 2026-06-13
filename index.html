@@ -536,6 +536,7 @@
         contenedorParticipantes.innerHTML = htmlSecciones;
 
         // Renderizar partidos individuales de cada persona (Corregido: Asignación de etiquetas y colores fijos)
+        // Renderizar partidos individuales de cada persona (Solución Definitiva: Volteo dinámico de columnas)
         Object.keys(coloresParticipantes).forEach(persona => {
             const div = document.getElementById('lista-pers-' + persona.replace(/\s+/g, ''));
             if (!div) return;
@@ -552,33 +553,52 @@
 
                 let res = getResult(pt.t1, pt.t2);
                 let estado = renderizarInsigniaEstado(res);
-                let scoreCenter = (res && (res.status === 'FINISHED' || res.status === 'LIVE')) ?
-                    `<div style="font-weight:900; font-size:1.1rem; background:#eef2f5; padding:2px 8px; border-radius:6px;">${res.g1} - ${res.g2}</div>` :
-                    `<span style="color:#aaa; font-weight:bold;">VS</span>`;
-                let h2hHtml = obtenerHtmlHistorial(pt.t1, pt.t2);
-
-                // --- LÓGICA DIRECTA DE ASIGNACIÓN PARA EL EQUIPO 1 (IZQUIERDA) ---
-                let etiquetaEq1 = (pt.d1 === persona) ? "Tu equipo" : `Rival: ${pt.d1}`;
-                let colorEq1 = coloresParticipantes[pt.d1] || '#555';
-
-                // --- LÓGICA DIRECTA DE ASIGNACIÓN PARA EL EQUIPO 2 (DERECHA) ---
-                let etiquetaEq2 = (pt.d2 === persona) ? "Tu equipo" : `Rival: ${pt.d2}`;
-                let colorEq2 = coloresParticipantes[pt.d2] || '#555';
+                
+                // Determinar si el usuario es dueño del equipo 1 o del equipo 2
+                let esDueñoDeT1 = (pt.d1 === persona);
+                let esDueñoDeT2 = (pt.d2 === persona);
+                
+                // Variables que se mostrarán en la interfaz (Izquierda vs Derecha)
+                let nombreIzq, nombreDer, banderaIzq, banderaDer, etiquetaIzq, etiquetaDer, colorIzq, colorDer, scoreHtml;
+                
+                if (pt.d1 === pt.d2) {
+                    // Caso especial: Juega contra sí mismo
+                    nombreIzq = pt.t1; banderaIzq = pt.c1; etiquetaIzq = "Tu equipo"; colorIzq = coloresParticipantes[persona];
+                    nombreDer = pt.t2; banderaDer = pt.c2; etiquetaDer = "Tu equipo (vs ti)"; colorDer = coloresParticipantes[persona];
+                    scoreHtml = (res && (res.status === 'FINISHED' || res.status === 'LIVE')) ? 
+                                `<div style="font-weight:900; font-size:1.1rem; background:#eef2f5; padding:2px 8px; border-radius:6px;">${res.g1} - ${res.g2}</div>` : 
+                                `<span style="color:#aaa; font-weight:bold;">VS</span>`;
+                } else if (esDueñoDeT2) {
+                    // ¡AQUÍ ESTÁ EL TRUCO! Si tu equipo es el 2, volteamos el orden visual de las columnas
+                    nombreIzq = pt.t2; banderaIzq = pt.c2; etiquetaIzq = "Tu equipo"; colorIzq = coloresParticipantes[persona];
+                    nombreDer = pt.t1; banderaDer = pt.c1; etiquetaDer = `Rival: ${pt.d1}`; colorDer = coloresParticipantes[pt.d1] || '#555';
+                    // Invertimos también el orden del marcador para que corresponda a las columnas
+                    scoreHtml = (res && (res.status === 'FINISHED' || res.status === 'LIVE')) ? 
+                                `<div style="font-weight:900; font-size:1.1rem; background:#eef2f5; padding:2px 8px; border-radius:6px;">${res.g2} - ${res.g1}</div>` : 
+                                `<span style="color:#aaa; font-weight:bold;">VS</span>`;
+                } else {
+                    // Si tu equipo es el 1, se mantiene el orden normal del JSON
+                    nombreIzq = pt.t1; banderaIzq = pt.c1; etiquetaIzq = "Tu equipo"; colorIzq = coloresParticipantes[persona];
+                    nombreDer = pt.t2; banderaDer = pt.c2; etiquetaDer = `Rival: ${pt.d2}`; colorDer = coloresParticipantes[pt.d2] || '#555';
+                    scoreHtml = (res && (res.status === 'FINISHED' || res.status === 'LIVE')) ? 
+                                `<div style="font-weight:900; font-size:1.1rem; background:#eef2f5; padding:2px 8px; border-radius:6px;">${res.g1} - ${res.g2}</div>` : 
+                                `<span style="color:#aaa; font-weight:bold;">VS</span>`;
+                }
 
                 html += `
                 <div class="p-mini ${pt.finalizado ? 'partido-pasado' : ''}" onclick="alternarTarjetaPartido(this)">
                     <div class="p-mini-fecha">${pt.fecha} - ${pt.hora} hrs</div>
                     <div class="p-mini-equipos">
                         <div class="p-mini-col">
-                            <img src="https://flagcdn.com/w20/${pt.c1}.png" style="width:28px; border-radius:3px;">
-                            <span style="font-size:0.8rem;">${pt.t1}</span>
-                            <span class="t-dueño" style="font-size:0.65rem; background-color:${colorEq1}">${etiquetaEq1}</span>
+                            <img src="https://flagcdn.com/w20/${banderaIzq}.png" style="width:28px; border-radius:3px;">
+                            <span style="font-size:0.8rem;">${nombreIzq}</span>
+                            <span class="t-dueño" style="font-size:0.65rem; background-color:${colorIzq}">${etiquetaIzq}</span>
                         </div>
-                        <div style="display:flex; flex-direction:column; align-items:center;">${scoreCenter}${estado}</div>
+                        <div style="display:flex; flex-direction:column; align-items:center;">${scoreHtml}${estado}</div>
                         <div class="p-mini-col">
-                            <img src="https://flagcdn.com/w20/${pt.c2}.png" style="width:28px; border-radius:3px;">
-                            <span style="font-size:0.8rem;">${pt.t2}</span>
-                            <span class="t-dueño" style="font-size:0.65rem; background-color:${colorEq2}">${etiquetaEq2}</span>
+                            <img src="https://flagcdn.com/w20/${banderaDer}.png" style="width:28px; border-radius:3px;">
+                            <span style="font-size:0.8rem;">${nombreDer}</span>
+                            <span class="t-dueño" style="font-size:0.65rem; background-color:${colorDer}">${etiquetaDer}</span>
                         </div>
                     </div>
                     ${h2hHtml}
