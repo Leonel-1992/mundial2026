@@ -238,15 +238,7 @@
     async function actualizarResultados(manual = false) {
         if (!manual) document.getElementById('cargando-overlay').style.display = 'flex';
         try {
-            const proxyUrl = "https://api.allorigins.win/get?url=";
-            const targetUrl = encodeURIComponent("https://play.fifa.com/json/fantasy/rounds.json");
-
-            const response = await fetch(proxyUrl + targetUrl);
-            if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-            const proxyData = await response.json();
-            // AllOrigins devuelve el JSON original dentro de una cadena de texto en la propiedad .contents
-            const data = JSON.parse(proxyData.contents);
+            const response = await fetch("./datos-fifa.json");
             if (!response.ok) throw new Error(`HTTP ${response.status}`);
             const data = await response.json();
             resultadosEnVivo = {};
