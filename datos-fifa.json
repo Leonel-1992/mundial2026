@@ -187,8 +187,8 @@
                 "homePenaltyScore": 0,
                 "homeGoalScorersAssists": [
                     {
-                        "playerId": 952,
-                        "assistId": 1506
+                        "playerId": 1145,
+                        "assistId": null
                     }
                 ],
                 "awayScore": 1,
