@@ -202,8 +202,8 @@
             },
             {
                 "id": 6,
-                "period": "second_half",
-                "minutes": 78,
+                "period": "full_time",
+                "minutes": 101,
                 "extraMinutes": 0,
                 "venueName": "Metlife Stadium",
                 "venueCity": "East Rutherford, New Jersey",
@@ -211,7 +211,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 6,
                 "date": "2026-06-13T23:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 7,
                 "awaySquadId": 29,
@@ -238,8 +238,8 @@
             },
             {
                 "id": 7,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "second_half",
+                "minutes": 84,
                 "extraMinutes": 0,
                 "venueName": "Gillette Stadium",
                 "venueCity": "Foxborough, Massachusetts",
@@ -247,7 +247,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 7,
                 "date": "2026-06-14T02:00:00+01:00",
-                "status": "scheduled",
+                "status": "playing",
                 "isSuspended": false,
                 "homeSquadId": 22,
                 "awaySquadId": 38,
@@ -255,12 +255,17 @@
                 "awaySquadName": "Scotland",
                 "homeSquadAbbr": "HAI",
                 "awaySquadAbbr": "SCO",
-                "homeScore": null,
-                "homePenaltyScore": null,
+                "homeScore": 0,
+                "homePenaltyScore": 0,
                 "homeGoalScorersAssists": null,
-                "awayScore": null,
-                "awayPenaltyScore": null,
-                "awayGoalScorersAssists": null
+                "awayScore": 1,
+                "awayPenaltyScore": 0,
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 1003,
+                        "assistId": null
+                    }
+                ]
             },
             {
                 "id": 8,
