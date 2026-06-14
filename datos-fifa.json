@@ -304,8 +304,8 @@
             },
             {
                 "id": 9,
-                "period": "first_half",
-                "minutes": 40,
+                "period": "full_time",
+                "minutes": 96,
                 "extraMinutes": 0,
                 "venueName": "Nrg Stadium",
                 "venueCity": "Houston, Texas",
@@ -313,7 +313,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 9,
                 "date": "2026-06-14T18:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 20,
                 "awaySquadId": 14,
@@ -321,7 +321,7 @@
                 "awaySquadName": "Cura\u00e7ao",
                 "homeSquadAbbr": "GER",
                 "awaySquadAbbr": "CUW",
-                "homeScore": 2,
+                "homeScore": 7,
                 "homePenaltyScore": 0,
                 "homeGoalScorersAssists": [
                     {
@@ -331,6 +331,26 @@
                     {
                         "playerId": 526,
                         "assistId": 525
+                    },
+                    {
+                        "playerId": 528,
+                        "assistId": null
+                    },
+                    {
+                        "playerId": 1600,
+                        "assistId": 542
+                    },
+                    {
+                        "playerId": 525,
+                        "assistId": 531
+                    },
+                    {
+                        "playerId": 531,
+                        "assistId": 542
+                    },
+                    {
+                        "playerId": 528,
+                        "assistId": 531
                     }
                 ],
                 "awayScore": 1,
