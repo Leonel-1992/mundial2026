@@ -364,8 +364,8 @@
             },
             {
                 "id": 10,
-                "period": "first_half",
-                "minutes": 39,
+                "period": "second_half",
+                "minutes": 95,
                 "extraMinutes": 0,
                 "venueName": "At&t Stadium",
                 "venueCity": "Arlington, Texas",
@@ -381,12 +381,30 @@
                 "awaySquadName": "Japan",
                 "homeSquadAbbr": "NED",
                 "awaySquadAbbr": "JPN",
-                "homeScore": 0,
+                "homeScore": 2,
                 "homePenaltyScore": 0,
-                "homeGoalScorersAssists": null,
-                "awayScore": 0,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 796,
+                        "assistId": 812
+                    },
+                    {
+                        "playerId": 2044,
+                        "assistId": 812
+                    }
+                ],
+                "awayScore": 2,
                 "awayPenaltyScore": 0,
-                "awayGoalScorersAssists": null
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 671,
+                        "assistId": 1458
+                    },
+                    {
+                        "playerId": 682,
+                        "assistId": 673
+                    }
+                ]
             },
             {
                 "id": 11,
