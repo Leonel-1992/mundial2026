@@ -491,8 +491,8 @@
             },
             {
                 "id": 13,
-                "period": "first_half",
-                "minutes": 31,
+                "period": "full_time",
+                "minutes": 96,
                 "extraMinutes": 0,
                 "venueName": "Mercedes-benz Stadium",
                 "venueCity": "Atlanta, Georgia",
@@ -500,7 +500,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 13,
                 "date": "2026-06-15T17:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 41,
                 "awaySquadId": 8,
@@ -517,8 +517,8 @@
             },
             {
                 "id": 14,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "half_time",
+                "minutes": 50,
                 "extraMinutes": 0,
                 "venueName": "Lumen Field",
                 "venueCity": "Seattle, Washington",
@@ -526,7 +526,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 14,
                 "date": "2026-06-15T20:00:00+01:00",
-                "status": "scheduled",
+                "status": "playing",
                 "isSuspended": false,
                 "homeSquadId": 5,
                 "awaySquadId": 17,
@@ -534,12 +534,17 @@
                 "awaySquadName": "Egypt",
                 "homeSquadAbbr": "BEL",
                 "awaySquadAbbr": "EGY",
-                "homeScore": null,
-                "homePenaltyScore": null,
+                "homeScore": 0,
+                "homePenaltyScore": 0,
                 "homeGoalScorersAssists": null,
-                "awayScore": null,
-                "awayPenaltyScore": null,
-                "awayGoalScorersAssists": null
+                "awayScore": 1,
+                "awayPenaltyScore": 0,
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 435,
+                        "assistId": 1597
+                    }
+                ]
             },
             {
                 "id": 15,
