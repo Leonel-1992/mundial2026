@@ -408,8 +408,8 @@
             },
             {
                 "id": 11,
-                "period": "second_half",
-                "minutes": 57,
+                "period": "full_time",
+                "minutes": 99,
                 "extraMinutes": 0,
                 "venueName": "Lincoln Financial Field",
                 "venueCity": "Philadelphia, Pennsylvania",
@@ -417,7 +417,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 11,
                 "date": "2026-06-15T00:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 12,
                 "awaySquadId": 16,
@@ -425,17 +425,22 @@
                 "awaySquadName": "Ecuador",
                 "homeSquadAbbr": "CIV",
                 "awaySquadAbbr": "ECU",
-                "homeScore": 0,
+                "homeScore": 1,
                 "homePenaltyScore": 0,
-                "homeGoalScorersAssists": null,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 310,
+                        "assistId": 300
+                    }
+                ],
                 "awayScore": 0,
                 "awayPenaltyScore": 0,
                 "awayGoalScorersAssists": null
             },
             {
                 "id": 12,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "full_time",
+                "minutes": 97,
                 "extraMinutes": 0,
                 "venueName": "Estadio Bbva",
                 "venueCity": "Guadalupe",
@@ -443,7 +448,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 12,
                 "date": "2026-06-15T03:00:00+01:00",
-                "status": "scheduled",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 42,
                 "awaySquadId": 44,
@@ -451,12 +456,38 @@
                 "awaySquadName": "Tunisia",
                 "homeSquadAbbr": "SWE",
                 "awaySquadAbbr": "TUN",
-                "homeScore": null,
-                "homePenaltyScore": null,
-                "homeGoalScorersAssists": null,
-                "awayScore": null,
-                "awayPenaltyScore": null,
-                "awayGoalScorersAssists": null
+                "homeScore": 5,
+                "homePenaltyScore": 0,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 1114,
+                        "assistId": null
+                    },
+                    {
+                        "playerId": 1520,
+                        "assistId": 1124
+                    },
+                    {
+                        "playerId": 1124,
+                        "assistId": 1520
+                    },
+                    {
+                        "playerId": 1117,
+                        "assistId": 1520
+                    },
+                    {
+                        "playerId": 1114,
+                        "assistId": 1113
+                    }
+                ],
+                "awayScore": 1,
+                "awayPenaltyScore": 0,
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 1167,
+                        "assistId": 1555
+                    }
+                ]
             },
             {
                 "id": 13,
