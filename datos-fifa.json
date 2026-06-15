@@ -408,8 +408,8 @@
             },
             {
                 "id": 11,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "second_half",
+                "minutes": 57,
                 "extraMinutes": 0,
                 "venueName": "Lincoln Financial Field",
                 "venueCity": "Philadelphia, Pennsylvania",
