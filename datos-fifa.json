@@ -517,8 +517,8 @@
             },
             {
                 "id": 14,
-                "period": "half_time",
-                "minutes": 50,
+                "period": "full_time",
+                "minutes": 96,
                 "extraMinutes": 0,
                 "venueName": "Lumen Field",
                 "venueCity": "Seattle, Washington",
@@ -526,7 +526,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 14,
                 "date": "2026-06-15T20:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 5,
                 "awaySquadId": 17,
@@ -534,9 +534,14 @@
                 "awaySquadName": "Egypt",
                 "homeSquadAbbr": "BEL",
                 "awaySquadAbbr": "EGY",
-                "homeScore": 0,
+                "homeScore": 1,
                 "homePenaltyScore": 0,
-                "homeGoalScorersAssists": null,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 439,
+                        "assistId": null
+                    }
+                ],
                 "awayScore": 1,
                 "awayPenaltyScore": 0,
                 "awayGoalScorersAssists": [
@@ -548,8 +553,8 @@
             },
             {
                 "id": 15,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "first_half",
+                "minutes": 23,
                 "extraMinutes": 0,
                 "venueName": "Hard Rock Stadium",
                 "venueCity": "Miami Gardens, Florida",
@@ -557,7 +562,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 15,
                 "date": "2026-06-15T23:00:00+01:00",
-                "status": "scheduled",
+                "status": "playing",
                 "isSuspended": false,
                 "homeSquadId": 37,
                 "awaySquadId": 46,
@@ -565,11 +570,11 @@
                 "awaySquadName": "Uruguay",
                 "homeSquadAbbr": "KSA",
                 "awaySquadAbbr": "URU",
-                "homeScore": null,
-                "homePenaltyScore": null,
+                "homeScore": 0,
+                "homePenaltyScore": 0,
                 "homeGoalScorersAssists": null,
-                "awayScore": null,
-                "awayPenaltyScore": null,
+                "awayScore": 0,
+                "awayPenaltyScore": 0,
                 "awayGoalScorersAssists": null
             },
             {
