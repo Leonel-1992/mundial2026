@@ -633,8 +633,8 @@
             },
             {
                 "id": 17,
-                "period": "first_half",
-                "minutes": 3,
+                "period": "full_time",
+                "minutes": 100,
                 "extraMinutes": 0,
                 "venueName": "Metlife Stadium",
                 "venueCity": "East Rutherford, New Jersey",
@@ -642,7 +642,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 6,
                 "date": "2026-06-16T20:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 19,
                 "awaySquadId": 39,
@@ -650,12 +650,30 @@
                 "awaySquadName": "Senegal",
                 "homeSquadAbbr": "FRA",
                 "awaySquadAbbr": "SEN",
-                "homeScore": 0,
+                "homeScore": 3,
                 "homePenaltyScore": 0,
-                "homeGoalScorersAssists": null,
-                "awayScore": 0,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 500,
+                        "assistId": 517
+                    },
+                    {
+                        "playerId": 1431,
+                        "assistId": 510
+                    },
+                    {
+                        "playerId": 500,
+                        "assistId": null
+                    }
+                ],
+                "awayScore": 1,
                 "awayPenaltyScore": 0,
-                "awayGoalScorersAssists": null
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 1049,
+                        "assistId": 1042
+                    }
+                ]
             },
             {
                 "id": 18,
