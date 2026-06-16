@@ -553,8 +553,8 @@
             },
             {
                 "id": 15,
-                "period": "first_half",
-                "minutes": 23,
+                "period": "full_time",
+                "minutes": 99,
                 "extraMinutes": 0,
                 "venueName": "Hard Rock Stadium",
                 "venueCity": "Miami Gardens, Florida",
@@ -562,7 +562,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 15,
                 "date": "2026-06-15T23:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 37,
                 "awaySquadId": 46,
@@ -570,12 +570,22 @@
                 "awaySquadName": "Uruguay",
                 "homeSquadAbbr": "KSA",
                 "awaySquadAbbr": "URU",
-                "homeScore": 0,
+                "homeScore": 1,
                 "homePenaltyScore": 0,
-                "homeGoalScorersAssists": null,
-                "awayScore": 0,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 984,
+                        "assistId": null
+                    }
+                ],
+                "awayScore": 1,
                 "awayPenaltyScore": 0,
-                "awayGoalScorersAssists": null
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 1223,
+                        "assistId": null
+                    }
+                ]
             },
             {
                 "id": 16,
