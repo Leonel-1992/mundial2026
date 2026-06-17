@@ -876,8 +876,8 @@
             },
             {
                 "id": 21,
-                "period": "second_half",
-                "minutes": 68,
+                "period": "full_time",
+                "minutes": 95,
                 "extraMinutes": 0,
                 "venueName": "Nrg Stadium",
                 "venueCity": "Houston, Texas",
@@ -885,7 +885,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 9,
                 "date": "2026-06-17T18:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 35,
                 "awaySquadId": 11,
@@ -914,8 +914,8 @@
             },
             {
                 "id": 22,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "half_time",
+                "minutes": 51,
                 "extraMinutes": 0,
                 "venueName": "At&t Stadium",
                 "venueCity": "Arlington, Texas",
@@ -923,7 +923,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 10,
                 "date": "2026-06-17T21:00:00+01:00",
-                "status": "scheduled",
+                "status": "playing",
                 "isSuspended": false,
                 "homeSquadId": 18,
                 "awaySquadId": 13,
@@ -931,12 +931,34 @@
                 "awaySquadName": "Croatia",
                 "homeSquadAbbr": "ENG",
                 "awaySquadAbbr": "CRO",
-                "homeScore": null,
-                "homePenaltyScore": null,
-                "homeGoalScorersAssists": null,
-                "awayScore": null,
-                "awayPenaltyScore": null,
-                "awayGoalScorersAssists": null
+                "homeScore": 2,
+                "homePenaltyScore": 0,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 468,
+                        "assistId": null,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 468,
+                        "assistId": 488,
+                        "isOwnGoal": false
+                    }
+                ],
+                "awayScore": 2,
+                "awayPenaltyScore": 0,
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 348,
+                        "assistId": 324,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 336,
+                        "assistId": 334,
+                        "isOwnGoal": false
+                    }
+                ]
             },
             {
                 "id": 23,
