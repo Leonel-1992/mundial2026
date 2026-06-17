@@ -914,8 +914,8 @@
             },
             {
                 "id": 22,
-                "period": "half_time",
-                "minutes": 51,
+                "period": "full_time",
+                "minutes": 97,
                 "extraMinutes": 0,
                 "venueName": "At&t Stadium",
                 "venueCity": "Arlington, Texas",
@@ -923,7 +923,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 10,
                 "date": "2026-06-17T21:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 18,
                 "awaySquadId": 13,
@@ -931,7 +931,7 @@
                 "awaySquadName": "Croatia",
                 "homeSquadAbbr": "ENG",
                 "awaySquadAbbr": "CRO",
-                "homeScore": 2,
+                "homeScore": 4,
                 "homePenaltyScore": 0,
                 "homeGoalScorersAssists": [
                     {
@@ -942,6 +942,16 @@
                     {
                         "playerId": 468,
                         "assistId": 488,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 491,
+                        "assistId": 486,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 471,
+                        "assistId": 469,
                         "isOwnGoal": false
                     }
                 ],
