@@ -29,11 +29,13 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 750,
-                        "assistId": 759
+                        "assistId": 759,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 748,
-                        "assistId": 752
+                        "assistId": 752,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 0,
@@ -64,11 +66,13 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 1549,
-                        "assistId": 736
+                        "assistId": 736,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 726,
-                        "assistId": 1549
+                        "assistId": 1549,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 1,
@@ -76,7 +80,8 @@
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 374,
-                        "assistId": 380
+                        "assistId": 380,
+                        "isOwnGoal": false
                     }
                 ]
             },
@@ -104,7 +109,8 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 227,
-                        "assistId": 1970
+                        "assistId": 1970,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 1,
@@ -112,7 +118,8 @@
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 148,
-                        "assistId": 139
+                        "assistId": 139,
+                        "isOwnGoal": false
                     }
                 ]
             },
@@ -140,19 +147,23 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 911,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": true
                     },
                     {
                         "playerId": 1267,
-                        "assistId": 1274
+                        "assistId": 1274,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 1267,
-                        "assistId": 1254
+                        "assistId": 1254,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 1256,
-                        "assistId": 1264
+                        "assistId": 1264,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 1,
@@ -160,7 +171,8 @@
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 888,
-                        "assistId": 912
+                        "assistId": 912,
+                        "isOwnGoal": false
                     }
                 ]
             },
@@ -188,7 +200,8 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 1145,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": true
                     }
                 ],
                 "awayScore": 1,
@@ -196,7 +209,8 @@
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 1149,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": false
                     }
                 ]
             },
@@ -224,7 +238,8 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 173,
-                        "assistId": 1361
+                        "assistId": 1361,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 1,
@@ -232,7 +247,8 @@
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 792,
-                        "assistId": 2020
+                        "assistId": 2020,
+                        "isOwnGoal": false
                     }
                 ]
             },
@@ -263,7 +279,8 @@
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 1003,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": false
                     }
                 ]
             },
@@ -291,11 +308,13 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 68,
-                        "assistId": 77
+                        "assistId": 77,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 80,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 0,
@@ -326,31 +345,38 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 1601,
-                        "assistId": 543
+                        "assistId": 543,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 526,
-                        "assistId": 525
+                        "assistId": 525,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 528,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 1600,
-                        "assistId": 542
+                        "assistId": 542,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 525,
-                        "assistId": 531
+                        "assistId": 531,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 531,
-                        "assistId": 542
+                        "assistId": 542,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 528,
-                        "assistId": 531
+                        "assistId": 531,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 1,
@@ -358,7 +384,8 @@
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 360,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": false
                     }
                 ]
             },
@@ -386,11 +413,13 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 796,
-                        "assistId": 812
+                        "assistId": 812,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 2044,
-                        "assistId": 812
+                        "assistId": 812,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 2,
@@ -398,11 +427,13 @@
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 671,
-                        "assistId": 1458
+                        "assistId": 1458,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 682,
-                        "assistId": 673
+                        "assistId": 673,
+                        "isOwnGoal": false
                     }
                 ]
             },
@@ -430,7 +461,8 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 310,
-                        "assistId": 300
+                        "assistId": 300,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 0,
@@ -461,23 +493,28 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 1114,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 1520,
-                        "assistId": 1124
+                        "assistId": 1124,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 1124,
-                        "assistId": 1520
+                        "assistId": 1520,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 1117,
-                        "assistId": 1520
+                        "assistId": 1520,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 1114,
-                        "assistId": 1113
+                        "assistId": 1113,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 1,
@@ -485,7 +522,8 @@
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 1167,
-                        "assistId": 1555
+                        "assistId": 1555,
+                        "isOwnGoal": false
                     }
                 ]
             },
@@ -539,7 +577,8 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 439,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": true
                     }
                 ],
                 "awayScore": 1,
@@ -547,7 +586,8 @@
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 435,
-                        "assistId": 1597
+                        "assistId": 1597,
+                        "isOwnGoal": false
                     }
                 ]
             },
@@ -575,7 +615,8 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 984,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 1,
@@ -583,7 +624,8 @@
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 1223,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": false
                     }
                 ]
             },
@@ -611,11 +653,13 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 597,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 627,
-                        "assistId": 597
+                        "assistId": 597,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 2,
@@ -623,11 +667,13 @@
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 832,
-                        "assistId": 1493
+                        "assistId": 1493,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 832,
-                        "assistId": 1493
+                        "assistId": 1493,
+                        "isOwnGoal": false
                     }
                 ]
             },
@@ -655,15 +701,18 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 500,
-                        "assistId": 517
+                        "assistId": 517,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 1431,
-                        "assistId": 510
+                        "assistId": 510,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 500,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 1,
@@ -671,7 +720,8 @@
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 1049,
-                        "assistId": 1042
+                        "assistId": 1042,
+                        "isOwnGoal": false
                     }
                 ]
             },
@@ -699,7 +749,8 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 646,
-                        "assistId": 635
+                        "assistId": 635,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 4,
@@ -707,19 +758,23 @@
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 855,
-                        "assistId": 850
+                        "assistId": 850,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 855,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 849,
-                        "assistId": 1684
+                        "assistId": 1684,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 646,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": false
                     }
                 ]
             },
@@ -747,15 +802,18 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 38,
-                        "assistId": 50
+                        "assistId": 50,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 38,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 38,
-                        "assistId": 42
+                        "assistId": 42,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 0,
@@ -763,7 +821,8 @@
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 27,
-                        "assistId": 12
+                        "assistId": 12,
+                        "isOwnGoal": false
                     }
                 ]
             },
@@ -791,15 +850,18 @@
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 108,
-                        "assistId": 111
+                        "assistId": 111,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 690,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": false
                     },
                     {
                         "playerId": 95,
-                        "assistId": null
+                        "assistId": null,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 1,
@@ -807,7 +869,8 @@
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 1547,
-                        "assistId": 688
+                        "assistId": 688,
+                        "isOwnGoal": false
                     }
                 ]
             },
