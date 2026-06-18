@@ -1061,8 +1061,8 @@
         "tournaments": [
             {
                 "id": 25,
-                "period": "first_half",
-                "minutes": 4,
+                "period": "full_time",
+                "minutes": 98,
                 "extraMinutes": 0,
                 "venueName": "Mercedes-benz Stadium",
                 "venueCity": "Atlanta, Georgia",
@@ -1070,7 +1070,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 13,
                 "date": "2026-06-18T17:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 15,
                 "awaySquadId": 40,
@@ -1078,12 +1078,24 @@
                 "awaySquadName": "South Africa",
                 "homeSquadAbbr": "CZE",
                 "awaySquadAbbr": "RSA",
-                "homeScore": 0,
+                "homeScore": 1,
                 "homePenaltyScore": 0,
-                "homeGoalScorersAssists": null,
-                "awayScore": 0,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 395,
+                        "assistId": 1411,
+                        "isOwnGoal": false
+                    }
+                ],
+                "awayScore": 1,
                 "awayPenaltyScore": 0,
-                "awayGoalScorersAssists": null
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 1058,
+                        "assistId": null,
+                        "isOwnGoal": false
+                    }
+                ]
             },
             {
                 "id": 26,
