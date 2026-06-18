@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "status": "playing",
+        "status": "complete",
         "startDate": "2026-06-11T20:00:00+01:00",
         "endDate": "2026-06-18T05:00:00+01:00",
         "tournaments": [
@@ -972,8 +972,8 @@
             },
             {
                 "id": 23,
-                "period": "half_time",
-                "minutes": 51,
+                "period": "full_time",
+                "minutes": 102,
                 "extraMinutes": 0,
                 "venueName": "Bmo Field",
                 "venueCity": "Toronto",
@@ -981,7 +981,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 3,
                 "date": "2026-06-18T00:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 21,
                 "awaySquadId": 33,
@@ -989,17 +989,23 @@
                 "awaySquadName": "Panama",
                 "homeSquadAbbr": "GHA",
                 "awaySquadAbbr": "PAN",
-                "homeScore": 0,
+                "homeScore": 1,
                 "homePenaltyScore": 0,
-                "homeGoalScorersAssists": null,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 1982,
+                        "assistId": null,
+                        "isOwnGoal": false
+                    }
+                ],
                 "awayScore": 0,
                 "awayPenaltyScore": 0,
                 "awayGoalScorersAssists": null
             },
             {
                 "id": 24,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "full_time",
+                "minutes": 101,
                 "extraMinutes": 0,
                 "venueName": "Estadio Banorte",
                 "venueCity": "Mexico City",
@@ -1007,7 +1013,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 1,
                 "date": "2026-06-18T03:00:00+01:00",
-                "status": "scheduled",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 48,
                 "awaySquadId": 10,
@@ -1015,12 +1021,34 @@
                 "awaySquadName": "Colombia",
                 "homeSquadAbbr": "UZB",
                 "awaySquadAbbr": "COL",
-                "homeScore": null,
-                "homePenaltyScore": null,
-                "homeGoalScorersAssists": null,
-                "awayScore": null,
-                "awayPenaltyScore": null,
-                "awayGoalScorersAssists": null
+                "homeScore": 1,
+                "homePenaltyScore": 0,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 1292,
+                        "assistId": null,
+                        "isOwnGoal": false
+                    }
+                ],
+                "awayScore": 3,
+                "awayPenaltyScore": 0,
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 248,
+                        "assistId": 256,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 256,
+                        "assistId": 266,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 268,
+                        "assistId": 1396,
+                        "isOwnGoal": false
+                    }
+                ]
             }
         ],
         "stage": "GROUP"
