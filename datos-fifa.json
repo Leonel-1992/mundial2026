@@ -1352,8 +1352,8 @@
             },
             {
                 "id": 32,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "full_time",
+                "minutes": 99,
                 "extraMinutes": 0,
                 "venueName": "Levi's Stadium",
                 "venueCity": "Santa Clara, California",
@@ -1361,7 +1361,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 5,
                 "date": "2026-06-20T04:00:00+01:00",
-                "status": "scheduled",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 45,
                 "awaySquadId": 34,
@@ -1369,12 +1369,18 @@
                 "awaySquadName": "Paraguay",
                 "homeSquadAbbr": "TUR",
                 "awaySquadAbbr": "PAR",
-                "homeScore": null,
-                "homePenaltyScore": null,
+                "homeScore": 0,
+                "homePenaltyScore": 0,
                 "homeGoalScorersAssists": null,
-                "awayScore": null,
-                "awayPenaltyScore": null,
-                "awayGoalScorersAssists": null
+                "awayScore": 1,
+                "awayPenaltyScore": 0,
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 890,
+                        "assistId": 912,
+                        "isOwnGoal": false
+                    }
+                ]
             },
             {
                 "id": 33,
