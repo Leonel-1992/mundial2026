@@ -1384,8 +1384,8 @@
             },
             {
                 "id": 33,
-                "period": "first_half",
-                "minutes": 0,
+                "period": "second_half",
+                "minutes": 80,
                 "extraMinutes": 0,
                 "venueName": "Nrg Stadium",
                 "venueCity": "Houston, Texas",
@@ -1401,12 +1401,39 @@
                 "awaySquadName": "Sweden",
                 "homeSquadAbbr": "NED",
                 "awaySquadAbbr": "SWE",
-                "homeScore": 0,
+                "homeScore": 4,
                 "homePenaltyScore": 0,
-                "homeGoalScorersAssists": null,
-                "awayScore": 0,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 807,
+                        "assistId": 804,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 807,
+                        "assistId": 795,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 804,
+                        "assistId": 795,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 804,
+                        "assistId": 2044,
+                        "isOwnGoal": false
+                    }
+                ],
+                "awayScore": 1,
                 "awayPenaltyScore": 0,
-                "awayGoalScorersAssists": null
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 1125,
+                        "assistId": 1520,
+                        "isOwnGoal": false
+                    }
+                ]
             },
             {
                 "id": 34,
