@@ -1764,8 +1764,8 @@
             },
             {
                 "id": 42,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "half_time",
+                "minutes": 49,
                 "extraMinutes": 0,
                 "venueName": "Lincoln Financial Field",
                 "venueCity": "Philadelphia, Pennsylvania",
@@ -1773,7 +1773,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 11,
                 "date": "2026-06-22T22:00:00+01:00",
-                "status": "scheduled",
+                "status": "playing",
                 "isSuspended": false,
                 "homeSquadId": 19,
                 "awaySquadId": 24,
@@ -1781,11 +1781,17 @@
                 "awaySquadName": "Iraq",
                 "homeSquadAbbr": "FRA",
                 "awaySquadAbbr": "IRQ",
-                "homeScore": null,
-                "homePenaltyScore": null,
-                "homeGoalScorersAssists": null,
-                "awayScore": null,
-                "awayPenaltyScore": null,
+                "homeScore": 1,
+                "homePenaltyScore": 0,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 500,
+                        "assistId": 517,
+                        "isOwnGoal": false
+                    }
+                ],
+                "awayScore": 0,
+                "awayPenaltyScore": 0,
                 "awayGoalScorersAssists": null
             },
             {
