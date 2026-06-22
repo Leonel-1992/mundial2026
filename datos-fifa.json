@@ -1727,8 +1727,8 @@
             },
             {
                 "id": 41,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "full_time",
+                "minutes": 98,
                 "extraMinutes": 0,
                 "venueName": "At&t Stadium",
                 "venueCity": "Arlington, Texas",
@@ -1736,7 +1736,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 10,
                 "date": "2026-06-22T18:00:00+01:00",
-                "status": "scheduled",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 2,
                 "awaySquadId": 4,
@@ -1744,11 +1744,22 @@
                 "awaySquadName": "Austria",
                 "homeSquadAbbr": "ARG",
                 "awaySquadAbbr": "AUT",
-                "homeScore": null,
-                "homePenaltyScore": null,
-                "homeGoalScorersAssists": null,
-                "awayScore": null,
-                "awayPenaltyScore": null,
+                "homeScore": 2,
+                "homePenaltyScore": 0,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 38,
+                        "assistId": 1320,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 38,
+                        "assistId": null,
+                        "isOwnGoal": false
+                    }
+                ],
+                "awayScore": 0,
+                "awayPenaltyScore": 0,
                 "awayGoalScorersAssists": null
             },
             {
