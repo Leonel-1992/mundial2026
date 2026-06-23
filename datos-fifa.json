@@ -1764,8 +1764,8 @@
             },
             {
                 "id": 42,
-                "period": "half_time",
-                "minutes": 49,
+                "period": "full_time",
+                "minutes": 93,
                 "extraMinutes": 0,
                 "venueName": "Lincoln Financial Field",
                 "venueCity": "Philadelphia, Pennsylvania",
@@ -1773,7 +1773,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 11,
                 "date": "2026-06-22T22:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 19,
                 "awaySquadId": 24,
@@ -1781,11 +1781,21 @@
                 "awaySquadName": "Iraq",
                 "homeSquadAbbr": "FRA",
                 "awaySquadAbbr": "IRQ",
-                "homeScore": 1,
+                "homeScore": 3,
                 "homePenaltyScore": 0,
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 500,
+                        "assistId": 517,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 500,
+                        "assistId": 501,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 501,
                         "assistId": 517,
                         "isOwnGoal": false
                     }
@@ -1796,8 +1806,8 @@
             },
             {
                 "id": 43,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "second_half",
+                "minutes": 63,
                 "extraMinutes": 0,
                 "venueName": "Metlife Stadium",
                 "venueCity": "East Rutherford, New Jersey",
@@ -1805,7 +1815,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 6,
                 "date": "2026-06-23T01:00:00+01:00",
-                "status": "scheduled",
+                "status": "playing",
                 "isSuspended": false,
                 "homeSquadId": 32,
                 "awaySquadId": 39,
@@ -1813,12 +1823,34 @@
                 "awaySquadName": "Senegal",
                 "homeSquadAbbr": "NOR",
                 "awaySquadAbbr": "SEN",
-                "homeScore": null,
-                "homePenaltyScore": null,
-                "homeGoalScorersAssists": null,
-                "awayScore": null,
-                "awayPenaltyScore": null,
-                "awayGoalScorersAssists": null
+                "homeScore": 3,
+                "homePenaltyScore": 0,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 848,
+                        "assistId": null,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 855,
+                        "assistId": 1684,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 855,
+                        "assistId": 845,
+                        "isOwnGoal": false
+                    }
+                ],
+                "awayScore": 1,
+                "awayPenaltyScore": 0,
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 1043,
+                        "assistId": 1696,
+                        "isOwnGoal": false
+                    }
+                ]
             },
             {
                 "id": 44,
