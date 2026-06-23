@@ -1806,8 +1806,8 @@
             },
             {
                 "id": 43,
-                "period": "second_half",
-                "minutes": 63,
+                "period": "full_time",
+                "minutes": 101,
                 "extraMinutes": 0,
                 "venueName": "Metlife Stadium",
                 "venueCity": "East Rutherford, New Jersey",
@@ -1815,7 +1815,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 6,
                 "date": "2026-06-23T01:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 32,
                 "awaySquadId": 39,
@@ -1842,20 +1842,25 @@
                         "isOwnGoal": false
                     }
                 ],
-                "awayScore": 1,
+                "awayScore": 2,
                 "awayPenaltyScore": 0,
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 1043,
                         "assistId": 1696,
                         "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 1043,
+                        "assistId": 1041,
+                        "isOwnGoal": false
                     }
                 ]
             },
             {
                 "id": 44,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "full_time",
+                "minutes": 98,
                 "extraMinutes": 0,
                 "venueName": "Levi's Stadium",
                 "venueCity": "Santa Clara, California",
@@ -1863,7 +1868,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 5,
                 "date": "2026-06-23T04:00:00+01:00",
-                "status": "scheduled",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 26,
                 "awaySquadId": 1,
@@ -1871,12 +1876,29 @@
                 "awaySquadName": "Algeria",
                 "homeSquadAbbr": "JOR",
                 "awaySquadAbbr": "ALG",
-                "homeScore": null,
-                "homePenaltyScore": null,
-                "homeGoalScorersAssists": null,
-                "awayScore": null,
-                "awayPenaltyScore": null,
-                "awayGoalScorersAssists": null
+                "homeScore": 1,
+                "homePenaltyScore": 0,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 689,
+                        "assistId": 701,
+                        "isOwnGoal": false
+                    }
+                ],
+                "awayScore": 2,
+                "awayPenaltyScore": 0,
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 15,
+                        "assistId": 11,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 10,
+                        "assistId": null,
+                        "isOwnGoal": false
+                    }
+                ]
             },
             {
                 "id": 45,
