@@ -2049,14 +2049,14 @@
     },
     {
         "id": 3,
-        "status": "scheduled",
+        "status": "playing",
         "startDate": "2026-06-24T20:00:00+01:00",
         "endDate": "2026-06-28T05:00:00+01:00",
         "tournaments": [
             {
                 "id": 49,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "half_time",
+                "minutes": 49,
                 "extraMinutes": 0,
                 "venueName": "Bc Place",
                 "venueCity": "Vancouver",
@@ -2064,7 +2064,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 8,
                 "date": "2026-06-24T20:00:00+01:00",
-                "status": "scheduled",
+                "status": "playing",
                 "isSuspended": false,
                 "homeSquadId": 43,
                 "awaySquadId": 9,
@@ -2072,17 +2072,17 @@
                 "awaySquadName": "Canada",
                 "homeSquadAbbr": "SUI",
                 "awaySquadAbbr": "CAN",
-                "homeScore": null,
-                "homePenaltyScore": null,
+                "homeScore": 0,
+                "homePenaltyScore": 0,
                 "homeGoalScorersAssists": null,
-                "awayScore": null,
-                "awayPenaltyScore": null,
+                "awayScore": 0,
+                "awayPenaltyScore": 0,
                 "awayGoalScorersAssists": null
             },
             {
                 "id": 50,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "half_time",
+                "minutes": 51,
                 "extraMinutes": 0,
                 "venueName": "Lumen Field",
                 "venueCity": "Seattle, Washington",
@@ -2090,7 +2090,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 14,
                 "date": "2026-06-24T20:00:00+01:00",
-                "status": "scheduled",
+                "status": "playing",
                 "isSuspended": false,
                 "homeSquadId": 6,
                 "awaySquadId": 36,
@@ -2098,12 +2098,29 @@
                 "awaySquadName": "Qatar",
                 "homeSquadAbbr": "BIH",
                 "awaySquadAbbr": "QAT",
-                "homeScore": null,
-                "homePenaltyScore": null,
-                "homeGoalScorersAssists": null,
-                "awayScore": null,
-                "awayPenaltyScore": null,
-                "awayGoalScorersAssists": null
+                "homeScore": 2,
+                "homePenaltyScore": 0,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 152,
+                        "assistId": 160,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 1507,
+                        "assistId": null,
+                        "isOwnGoal": true
+                    }
+                ],
+                "awayScore": 1,
+                "awayPenaltyScore": 0,
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 961,
+                        "assistId": 960,
+                        "isOwnGoal": false
+                    }
+                ]
             },
             {
                 "id": 52,
@@ -2679,7 +2696,7 @@
             }
         ],
         "stage": "GROUP",
-        "isLockoutFinished": false
+        "isLockoutFinished": true
     },
     {
         "id": 4,
