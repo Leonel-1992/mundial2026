@@ -2055,8 +2055,8 @@
         "tournaments": [
             {
                 "id": 49,
-                "period": "half_time",
-                "minutes": 49,
+                "period": "full_time",
+                "minutes": 97,
                 "extraMinutes": 0,
                 "venueName": "Bc Place",
                 "venueCity": "Vancouver",
@@ -2064,7 +2064,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 8,
                 "date": "2026-06-24T20:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 43,
                 "awaySquadId": 9,
@@ -2072,17 +2072,34 @@
                 "awaySquadName": "Canada",
                 "homeSquadAbbr": "SUI",
                 "awaySquadAbbr": "CAN",
-                "homeScore": 0,
+                "homeScore": 2,
                 "homePenaltyScore": 0,
-                "homeGoalScorersAssists": null,
-                "awayScore": 0,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 1158,
+                        "assistId": 1133,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 1133,
+                        "assistId": 1149,
+                        "isOwnGoal": false
+                    }
+                ],
+                "awayScore": 1,
                 "awayPenaltyScore": 0,
-                "awayGoalScorersAssists": null
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 1970,
+                        "assistId": 241,
+                        "isOwnGoal": false
+                    }
+                ]
             },
             {
                 "id": 50,
-                "period": "half_time",
-                "minutes": 51,
+                "period": "full_time",
+                "minutes": 97,
                 "extraMinutes": 0,
                 "venueName": "Lumen Field",
                 "venueCity": "Seattle, Washington",
@@ -2090,7 +2107,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 14,
                 "date": "2026-06-24T20:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 6,
                 "awaySquadId": 36,
@@ -2098,7 +2115,7 @@
                 "awaySquadName": "Qatar",
                 "homeSquadAbbr": "BIH",
                 "awaySquadAbbr": "QAT",
-                "homeScore": 2,
+                "homeScore": 3,
                 "homePenaltyScore": 0,
                 "homeGoalScorersAssists": [
                     {
@@ -2107,9 +2124,14 @@
                         "isOwnGoal": false
                     },
                     {
-                        "playerId": 1507,
+                        "playerId": 971,
                         "assistId": null,
                         "isOwnGoal": true
+                    },
+                    {
+                        "playerId": 1342,
+                        "assistId": 1341,
+                        "isOwnGoal": false
                     }
                 ],
                 "awayScore": 1,
