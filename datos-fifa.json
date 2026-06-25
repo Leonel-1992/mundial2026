@@ -2146,8 +2146,8 @@
             },
             {
                 "id": 52,
-                "period": "first_half",
-                "minutes": 50,
+                "period": "second_half",
+                "minutes": 98,
                 "extraMinutes": 0,
                 "venueName": "Mercedes-benz Stadium",
                 "venueCity": "Atlanta, Georgia",
@@ -2163,7 +2163,7 @@
                 "awaySquadName": "Haiti",
                 "homeSquadAbbr": "MAR",
                 "awaySquadAbbr": "HAI",
-                "homeScore": 2,
+                "homeScore": 4,
                 "homePenaltyScore": 0,
                 "homeGoalScorersAssists": [
                     {
@@ -2174,6 +2174,16 @@
                     {
                         "playerId": 792,
                         "assistId": 2012,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 2023,
+                        "assistId": 2013,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 782,
+                        "assistId": 2023,
                         "isOwnGoal": false
                     }
                 ],
@@ -2194,8 +2204,8 @@
             },
             {
                 "id": 51,
-                "period": "first_half",
-                "minutes": 50,
+                "period": "second_half",
+                "minutes": 95,
                 "extraMinutes": 0,
                 "venueName": "Hard Rock Stadium",
                 "venueCity": "Miami Gardens, Florida",
@@ -2214,7 +2224,7 @@
                 "homeScore": 0,
                 "homePenaltyScore": 0,
                 "homeGoalScorersAssists": null,
-                "awayScore": 2,
+                "awayScore": 3,
                 "awayPenaltyScore": 0,
                 "awayGoalScorersAssists": [
                     {
@@ -2224,6 +2234,11 @@
                     },
                     {
                         "playerId": 173,
+                        "assistId": 1361,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 174,
                         "assistId": 1361,
                         "isOwnGoal": false
                     }
