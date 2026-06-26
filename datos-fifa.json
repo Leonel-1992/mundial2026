@@ -2565,8 +2565,8 @@
             },
             {
                 "id": 62,
-                "period": "first_half",
-                "minutes": 12,
+                "period": "second_half",
+                "minutes": 85,
                 "extraMinutes": 0,
                 "venueName": "Bmo Field",
                 "venueCity": "Toronto",
@@ -2582,12 +2582,32 @@
                 "awaySquadName": "Iraq",
                 "homeSquadAbbr": "SEN",
                 "awaySquadAbbr": "IRQ",
-                "homeScore": 1,
+                "homeScore": 5,
                 "homePenaltyScore": 0,
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 1056,
                         "assistId": 1038,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 1043,
+                        "assistId": 1055,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 1032,
+                        "assistId": 1043,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 1032,
+                        "assistId": 1042,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 1042,
+                        "assistId": 1032,
                         "isOwnGoal": false
                     }
                 ],
@@ -2597,8 +2617,8 @@
             },
             {
                 "id": 61,
-                "period": "first_half",
-                "minutes": 12,
+                "period": "second_half",
+                "minutes": 89,
                 "extraMinutes": 0,
                 "venueName": "Gillette Stadium",
                 "venueCity": "Foxborough, Massachusetts",
@@ -2614,15 +2634,31 @@
                 "awaySquadName": "France",
                 "homeSquadAbbr": "NOR",
                 "awaySquadAbbr": "FRA",
-                "homeScore": 0,
+                "homeScore": 1,
                 "homePenaltyScore": 0,
-                "homeGoalScorersAssists": null,
-                "awayScore": 1,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 1682,
+                        "assistId": 857,
+                        "isOwnGoal": false
+                    }
+                ],
+                "awayScore": 3,
                 "awayPenaltyScore": 0,
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 501,
                         "assistId": 500,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 501,
+                        "assistId": 500,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 501,
+                        "assistId": 515,
                         "isOwnGoal": false
                     }
                 ]
