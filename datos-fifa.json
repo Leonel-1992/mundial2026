@@ -2400,8 +2400,8 @@
             },
             {
                 "id": 57,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "second_half",
+                "minutes": 45,
                 "extraMinutes": 0,
                 "venueName": "Geha Field At Arrowhead Stadium",
                 "venueCity": "Kansas City, Missouri",
@@ -2409,7 +2409,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 16,
                 "date": "2026-06-26T00:00:00+01:00",
-                "status": "scheduled",
+                "status": "playing",
                 "isSuspended": false,
                 "homeSquadId": 44,
                 "awaySquadId": 30,
@@ -2417,17 +2417,28 @@
                 "awaySquadName": "Netherlands",
                 "homeSquadAbbr": "TUN",
                 "awaySquadAbbr": "NED",
-                "homeScore": null,
-                "homePenaltyScore": null,
+                "homeScore": 0,
+                "homePenaltyScore": 0,
                 "homeGoalScorersAssists": null,
-                "awayScore": null,
-                "awayPenaltyScore": null,
-                "awayGoalScorersAssists": null
+                "awayScore": 2,
+                "awayPenaltyScore": 0,
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 1160,
+                        "assistId": null,
+                        "isOwnGoal": true
+                    },
+                    {
+                        "playerId": 807,
+                        "assistId": 796,
+                        "isOwnGoal": false
+                    }
+                ]
             },
             {
                 "id": 58,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "half_time",
+                "minutes": 50,
                 "extraMinutes": 0,
                 "venueName": "At&t Stadium",
                 "venueCity": "Arlington, Texas",
@@ -2435,7 +2446,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 10,
                 "date": "2026-06-26T00:00:00+01:00",
-                "status": "scheduled",
+                "status": "playing",
                 "isSuspended": false,
                 "homeSquadId": 25,
                 "awaySquadId": 42,
@@ -2443,11 +2454,11 @@
                 "awaySquadName": "Sweden",
                 "homeSquadAbbr": "JPN",
                 "awaySquadAbbr": "SWE",
-                "homeScore": null,
-                "homePenaltyScore": null,
+                "homeScore": 0,
+                "homePenaltyScore": 0,
                 "homeGoalScorersAssists": null,
-                "awayScore": null,
-                "awayPenaltyScore": null,
+                "awayScore": 0,
+                "awayPenaltyScore": 0,
                 "awayGoalScorersAssists": null
             },
             {
