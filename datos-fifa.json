@@ -3094,8 +3094,8 @@
         "tournaments": [
             {
                 "id": 73,
-                "period": "half_time",
-                "minutes": 49,
+                "period": "second_half",
+                "minutes": 92,
                 "extraMinutes": 0,
                 "venueName": "Sofi Stadium",
                 "venueCity": "Inglewood, California",
@@ -3114,9 +3114,15 @@
                 "homeScore": 0,
                 "homePenaltyScore": 0,
                 "homeGoalScorersAssists": null,
-                "awayScore": 0,
+                "awayScore": 1,
                 "awayPenaltyScore": 0,
-                "awayGoalScorersAssists": null
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 1967,
+                        "assistId": null,
+                        "isOwnGoal": false
+                    }
+                ]
             },
             {
                 "id": 74,
