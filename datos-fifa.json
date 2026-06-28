@@ -3094,8 +3094,8 @@
         "tournaments": [
             {
                 "id": 73,
-                "period": "second_half",
-                "minutes": 92,
+                "period": "full_time",
+                "minutes": 97,
                 "extraMinutes": 0,
                 "venueName": "Sofi Stadium",
                 "venueCity": "Inglewood, California",
@@ -3103,7 +3103,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 4,
                 "date": "2026-06-28T20:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 40,
                 "awaySquadId": 9,
