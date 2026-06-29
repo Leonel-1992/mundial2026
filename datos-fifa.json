@@ -3169,9 +3169,9 @@
             },
             {
                 "id": 78,
-                "period": "second_half",
-                "minutes": 70,
-                "extraMinutes": 0,
+                "period": "full_time_penalty",
+                "minutes": 123,
+                "extraMinutes": 33,
                 "venueName": "Gillette Stadium",
                 "venueCity": "Foxborough, Massachusetts",
                 "venueNameTranslationKey": null,
