@@ -3660,8 +3660,8 @@
             },
             {
                 "id": 80,
-                "period": "first_half",
-                "minutes": 29,
+                "period": "second_half",
+                "minutes": 78,
                 "extraMinutes": 0,
                 "venueName": "Hard Rock Stadium",
                 "venueCity": "Miami Gardens, Florida",
@@ -3686,9 +3686,15 @@
                         "isOwnGoal": false
                     }
                 ],
-                "awayScore": 0,
+                "awayScore": 1,
                 "awayPenaltyScore": null,
-                "awayGoalScorersAssists": null
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 218,
+                        "assistId": 206,
+                        "isOwnGoal": false
+                    }
+                ]
             },
             {
                 "id": 86,
