@@ -3622,16 +3622,16 @@
             },
             {
                 "id": 81,
-                "period": "full_time_extra",
-                "minutes": 96,
-                "extraMinutes": 0,
+                "period": "full_time",
+                "minutes": 123,
+                "extraMinutes": 33,
                 "venueName": "At&t Stadium",
                 "venueCity": "Arlington, Texas",
                 "venueNameTranslationKey": null,
                 "venueCityTranslationKey": null,
                 "venueId": 10,
                 "date": "2026-07-03T19:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 3,
                 "awaySquadId": 17,
@@ -3640,7 +3640,7 @@
                 "homeSquadAbbr": "AUS",
                 "awaySquadAbbr": "EGY",
                 "homeScore": 1,
-                "homePenaltyScore": null,
+                "homePenaltyScore": 2,
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 439,
@@ -3649,7 +3649,7 @@
                     }
                 ],
                 "awayScore": 1,
-                "awayPenaltyScore": null,
+                "awayPenaltyScore": 4,
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 435,
