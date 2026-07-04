@@ -3660,16 +3660,16 @@
             },
             {
                 "id": 80,
-                "period": "second_half",
-                "minutes": 78,
-                "extraMinutes": 0,
+                "period": "full_time",
+                "minutes": 124,
+                "extraMinutes": 34,
                 "venueName": "Hard Rock Stadium",
                 "venueCity": "Miami Gardens, Florida",
                 "venueNameTranslationKey": null,
                 "venueCityTranslationKey": null,
                 "venueId": 15,
                 "date": "2026-07-03T23:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 2,
                 "awaySquadId": 8,
@@ -3677,21 +3677,36 @@
                 "awaySquadName": "Cabo Verde",
                 "homeSquadAbbr": "ARG",
                 "awaySquadAbbr": "CPV",
-                "homeScore": 1,
+                "homeScore": 3,
                 "homePenaltyScore": null,
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 38,
                         "assistId": 1318,
                         "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 1318,
+                        "assistId": 56,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 205,
+                        "assistId": null,
+                        "isOwnGoal": true
                     }
                 ],
-                "awayScore": 1,
+                "awayScore": 2,
                 "awayPenaltyScore": null,
                 "awayGoalScorersAssists": [
                     {
                         "playerId": 218,
                         "assistId": 206,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 203,
+                        "assistId": 196,
                         "isOwnGoal": false
                     }
                 ]
@@ -3881,6 +3896,32 @@
                 "awaySquadName": "Belgium",
                 "homeSquadAbbr": "USA",
                 "awaySquadAbbr": "BEL",
+                "homeScore": null,
+                "homePenaltyScore": null,
+                "homeGoalScorersAssists": null,
+                "awayScore": null,
+                "awayPenaltyScore": null,
+                "awayGoalScorersAssists": null
+            },
+            {
+                "id": 95,
+                "period": "pre_match",
+                "minutes": 0,
+                "extraMinutes": 0,
+                "venueName": "Mercedes-benz Stadium",
+                "venueCity": "Atlanta, Georgia",
+                "venueNameTranslationKey": null,
+                "venueCityTranslationKey": null,
+                "venueId": 13,
+                "date": "2026-07-07T17:00:00+01:00",
+                "status": "scheduled",
+                "isSuspended": false,
+                "homeSquadId": 2,
+                "awaySquadId": 17,
+                "homeSquadName": "Argentina",
+                "awaySquadName": "Egypt",
+                "homeSquadAbbr": "ARG",
+                "awaySquadAbbr": "EGY",
                 "homeScore": null,
                 "homePenaltyScore": null,
                 "homeGoalScorersAssists": null,
