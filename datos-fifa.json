@@ -3925,8 +3925,8 @@
             },
             {
                 "id": 94,
-                "period": "second_half",
-                "minutes": 84,
+                "period": "full_time",
+                "minutes": 99,
                 "extraMinutes": 0,
                 "venueName": "At&t Stadium",
                 "venueCity": "Arlington, Texas",
@@ -3934,7 +3934,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 10,
                 "date": "2026-07-06T20:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 35,
                 "awaySquadId": 41,
@@ -3945,9 +3945,15 @@
                 "homeScore": 0,
                 "homePenaltyScore": null,
                 "homeGoalScorersAssists": null,
-                "awayScore": 0,
+                "awayScore": 1,
                 "awayPenaltyScore": null,
-                "awayGoalScorersAssists": null
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 1997,
+                        "assistId": 1093,
+                        "isOwnGoal": false
+                    }
+                ]
             },
             {
                 "id": 93,
