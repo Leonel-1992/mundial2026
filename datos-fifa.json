@@ -4010,8 +4010,8 @@
             },
             {
                 "id": 95,
-                "period": "first_half",
-                "minutes": 8,
+                "period": "full_time",
+                "minutes": 102,
                 "extraMinutes": 0,
                 "venueName": "Mercedes-benz Stadium",
                 "venueCity": "Atlanta, Georgia",
@@ -4019,7 +4019,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 13,
                 "date": "2026-07-07T17:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 2,
                 "awaySquadId": 17,
@@ -4027,12 +4027,39 @@
                 "awaySquadName": "Egypt",
                 "homeSquadAbbr": "ARG",
                 "awaySquadAbbr": "EGY",
-                "homeScore": 0,
+                "homeScore": 3,
                 "homePenaltyScore": null,
-                "homeGoalScorersAssists": null,
-                "awayScore": 0,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 28,
+                        "assistId": 38,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 38,
+                        "assistId": 1323,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 57,
+                        "assistId": 1338,
+                        "isOwnGoal": false
+                    }
+                ],
+                "awayScore": 2,
                 "awayPenaltyScore": null,
-                "awayGoalScorersAssists": null
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 444,
+                        "assistId": 432,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 1594,
+                        "assistId": 448,
+                        "isOwnGoal": false
+                    }
+                ]
             },
             {
                 "id": 96,
