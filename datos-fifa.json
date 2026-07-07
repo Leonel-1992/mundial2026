@@ -3957,8 +3957,8 @@
             },
             {
                 "id": 93,
-                "period": "pre_match",
-                "minutes": 0,
+                "period": "second_half",
+                "minutes": 49,
                 "extraMinutes": 0,
                 "venueName": "Lumen Field",
                 "venueCity": "Seattle, Washington",
@@ -3966,7 +3966,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 14,
                 "date": "2026-07-07T01:00:00+01:00",
-                "status": "scheduled",
+                "status": "playing",
                 "isSuspended": false,
                 "homeSquadId": 47,
                 "awaySquadId": 5,
@@ -3974,12 +3974,29 @@
                 "awaySquadName": "Belgium",
                 "homeSquadAbbr": "USA",
                 "awaySquadAbbr": "BEL",
-                "homeScore": null,
+                "homeScore": 1,
                 "homePenaltyScore": null,
-                "homeGoalScorersAssists": null,
-                "awayScore": null,
+                "homeGoalScorersAssists": [
+                    {
+                        "playerId": 1254,
+                        "assistId": null,
+                        "isOwnGoal": false
+                    }
+                ],
+                "awayScore": 2,
                 "awayPenaltyScore": null,
-                "awayGoalScorersAssists": null
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 129,
+                        "assistId": 135,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 129,
+                        "assistId": 1526,
+                        "isOwnGoal": false
+                    }
+                ]
             },
             {
                 "id": 95,
