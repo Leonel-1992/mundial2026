@@ -4063,8 +4063,8 @@
             },
             {
                 "id": 96,
-                "period": "first_half",
-                "minutes": 21,
+                "period": "second_half",
+                "minutes": 89,
                 "extraMinutes": 0,
                 "venueName": "Bc Place",
                 "venueCity": "Vancouver",
