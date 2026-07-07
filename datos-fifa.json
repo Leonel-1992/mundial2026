@@ -3749,7 +3749,7 @@
     },
     {
         "id": 5,
-        "status": "playing",
+        "status": "complete",
         "startDate": "2026-07-04T18:00:00+01:00",
         "endDate": "2026-07-07T23:00:00+01:00",
         "tournaments": [
@@ -4063,16 +4063,16 @@
             },
             {
                 "id": 96,
-                "period": "second_half",
-                "minutes": 89,
-                "extraMinutes": 0,
+                "period": "full_time",
+                "minutes": 122,
+                "extraMinutes": 32,
                 "venueName": "Bc Place",
                 "venueCity": "Vancouver",
                 "venueNameTranslationKey": null,
                 "venueCityTranslationKey": null,
                 "venueId": 8,
                 "date": "2026-07-07T21:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 43,
                 "awaySquadId": 10,
@@ -4081,10 +4081,10 @@
                 "homeSquadAbbr": "SUI",
                 "awaySquadAbbr": "COL",
                 "homeScore": 0,
-                "homePenaltyScore": null,
+                "homePenaltyScore": 4,
                 "homeGoalScorersAssists": null,
                 "awayScore": 0,
-                "awayPenaltyScore": null,
+                "awayPenaltyScore": 3,
                 "awayGoalScorersAssists": null
             }
         ],
