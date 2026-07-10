@@ -4136,8 +4136,8 @@
             },
             {
                 "id": 99,
-                "period": "first_half",
-                "minutes": 37,
+                "period": "second_half",
+                "minutes": 88,
                 "extraMinutes": 0,
                 "venueName": "Sofi Stadium",
                 "venueCity": "Inglewood, California",
@@ -4153,18 +4153,29 @@
                 "awaySquadName": "Belgium",
                 "homeSquadAbbr": "ESP",
                 "awaySquadAbbr": "BEL",
-                "homeScore": 1,
+                "homeScore": 2,
                 "homePenaltyScore": null,
                 "homeGoalScorersAssists": [
                     {
                         "playerId": 1998,
                         "assistId": null,
                         "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 1997,
+                        "assistId": null,
+                        "isOwnGoal": false
                     }
                 ],
-                "awayScore": 0,
+                "awayScore": 1,
                 "awayPenaltyScore": null,
-                "awayGoalScorersAssists": null
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 129,
+                        "assistId": 115,
+                        "isOwnGoal": false
+                    }
+                ]
             },
             {
                 "id": 98,
