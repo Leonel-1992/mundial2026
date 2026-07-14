@@ -4280,8 +4280,8 @@
         "tournaments": [
             {
                 "id": 101,
-                "period": "second_half",
-                "minutes": 69,
+                "period": "full_time",
+                "minutes": 97,
                 "extraMinutes": 0,
                 "venueName": "At&t Stadium",
                 "venueCity": "Arlington, Texas",
@@ -4289,7 +4289,7 @@
                 "venueCityTranslationKey": null,
                 "venueId": 10,
                 "date": "2026-07-14T20:00:00+01:00",
-                "status": "playing",
+                "status": "complete",
                 "isSuspended": false,
                 "homeSquadId": 19,
                 "awaySquadId": 41,
