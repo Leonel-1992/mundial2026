@@ -4280,8 +4280,8 @@
         "tournaments": [
             {
                 "id": 101,
-                "period": "first_half",
-                "minutes": 12,
+                "period": "second_half",
+                "minutes": 69,
                 "extraMinutes": 0,
                 "venueName": "At&t Stadium",
                 "venueCity": "Arlington, Texas",
@@ -4300,9 +4300,20 @@
                 "homeScore": 0,
                 "homePenaltyScore": null,
                 "homeGoalScorersAssists": null,
-                "awayScore": 0,
+                "awayScore": 2,
                 "awayPenaltyScore": null,
-                "awayGoalScorersAssists": null
+                "awayGoalScorersAssists": [
+                    {
+                        "playerId": 1094,
+                        "assistId": null,
+                        "isOwnGoal": false
+                    },
+                    {
+                        "playerId": 1085,
+                        "assistId": 1105,
+                        "isOwnGoal": false
+                    }
+                ]
             },
             {
                 "id": 102,
