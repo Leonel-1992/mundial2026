@@ -4448,8 +4448,8 @@
             },
             {
                 "id": 104,
-                "period": "first_half",
-                "minutes": 21,
+                "period": "half_time",
+                "minutes": 45,
                 "extraMinutes": 0,
                 "venueName": "Metlife Stadium",
                 "venueCity": "East Rutherford, New Jersey",
